@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>School Form</title>
+    </head>
+    <body>
+        <!-- Details part -->
+
+        <h4>Your details</h4>
+        <Form action="/action_page.html">
+            <table border="1px" width="" height="">
+            <tr>
+                <td>
+                    <label for="Name">Name</label>
+            <input type="text" id="Name" placeholder="First and last name" required>
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" id="Email" placeholder="Eg. 123@gmail.com">
+          
+            </td>
+            </tr>
+            </table>
+            <br>
+            <table border="1px">
+                <tr>
+                    <td>
+                        
+                        <label for="tel">Mobile number <b>:</b> </label>
+                        <input type="tel">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <label for="file"> <b> Upload a Profile Image</b></label>
+            <br>
+            <input type="file">
+                
+             <!-- Locations part -->
+            <br><br><br>
+            <h><b>Location</b></h>
+            <table border="1px">
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="">Address<b>:</b></label>
+                                </td>
+                                
+                            </tr>
+                        </table>
+                       
+                        <td>
+                            <textarea name="" id="" cols="30" rows="4"></textarea>
+                        </td>
+                        <br><br>
+                        <table border="1px" width>
+                            <td>
+                                <label for="pcode">Post code<b>:</b></label>
+                            </td>
+                           
+                                <td>
+                                    <input type="number" id="pcode">
+                                </td>
+
+                        </table>
+                        <table border="1px" width>
+                            <td>
+                                <label for="country">Country<b>:</b></label>
+                            </td>
+                           
+                                <td>
+                                   <select name="country" id="country">
+                                    <option value="" selected>Please select a country</option>
+                                    <option value="bangladesh">Bangladesh</option>
+                                    <option value="india">India</option>
+                                    <option value="russia" disabled>Russia</option>
+                                    <option value="israel" disabled>Israel</option>
+                                </select>
+                                   
+                                </td>
+
+                        </table>
+                        <br>
+                        
+                        
+                    </td>
+                </tr>
+            </table>
+
+           
+            <table border="1px">
+                <tr>
+                    <td>
+                        <label for="favcolor">Select your favorite color<b>:</b>&nbsp; </label>
+                        <input type="color" id="favcolor" name="favcolor">
+                    </td>
+                </tr>
+            </table>
+            
+
+
+
+            <br><br>
+            <label for="date">Date of Submission <b>:</b></label>
+                <input type="date" id="date">
+           
+            <br><br>
+            <table border="1px">
+                <tr>
+                    <td>
+                        <label for="pre"> <b>Range of being present<b>:</b> &nbsp;</b></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="range" id="pre">
+                    </td>
+                </tr>
+            </table>
+            
+            <br>
+
+            <table border="1px">
+                <tr>
+                    <td>
+                        <label for="username"> Prefered Username <b>:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" id="username">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="pass">  Enter a Password<b>:</b></label>
+                    </td>
+                    <td>
+                        <input type="password" id="pass" minlength="10">
+                    </td>
+                </tr>
+
+
+            </table>
+
+            
+            
+        <br>
+        <label for="fav">Choose your Major <b>:</b></label>
+        <br>
+        <input type="radio" id="Sci" name="major" value="Science">Science<br>
+        <input type="radio" id="business" name="major" value="Commerce">Commerce <br>
+        <input type="radio" id="Arts" name="major" value="Arts">Arts <br>
+            
+        <br>
+        <input type="checkbox" id="terms" name="conditions" value="terms and conditions"> I accept all the terms and conditions.
+        <br>
+        <input type="checkbox" id="send" > I agree to receive confirmation email.
+        <br><br>
+        <input type="submit">
+           
+        </Form>
+    </body>
+</html>
