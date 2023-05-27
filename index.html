@@ -7,12 +7,12 @@
         <!-- Details part -->
 
         <h4>Your details</h4>
-        <Form action="/action_page.html">
+        <Form action="./action_page.html" >
             <table border="1px" width="" height="">
             <tr>
                 <td>
                     <label for="Name">Name</label>
-            <input type="text" id="Name" placeholder="First and last name" required>
+            <input type="text" id="Name" placeholder="First and last name" >
             <br>
             <label for="Email">Email</label>
             <input type="email" id="Email" placeholder="Eg. 123@gmail.com">
@@ -26,7 +26,7 @@
                     <td>
                         
                         <label for="tel">Mobile number <b>:</b> </label>
-                        <input type="tel">
+                        <input type="tel" id="tel" placeholder="+88012345678">
                     </td>
                 </tr>
             </table>
@@ -41,6 +41,7 @@
             <table border="1px">
                 <tr>
                     <td>
+                        <!-- Address -->
                         <table>
                             <tr>
                                 <td>
@@ -51,7 +52,7 @@
                         </table>
                        
                         <td>
-                            <textarea name="" id="" cols="30" rows="4"></textarea>
+                            <textarea name="" id="" cols="30" rows="4" placeholder="Stret name, Block Number and Plot Number"></textarea>
                         </td>
                         <br><br>
                         <table border="1px" width>
@@ -60,7 +61,7 @@
                             </td>
                            
                                 <td>
-                                    <input type="number" id="pcode">
+                                    <input type="number" id="pcode" placeholder="Eg. 1234">
                                 </td>
 
                         </table>
@@ -69,6 +70,8 @@
                                 <label for="country">Country<b>:</b></label>
                             </td>
                            
+
+                            <!-- Option -->
                                 <td>
                                    <select name="country" id="country">
                                     <option value="" selected>Please select a country</option>
@@ -124,7 +127,7 @@
             <table border="1px">
                 <tr>
                     <td>
-                        <label for="username"> Prefered Username <b>:</b></label>
+                        <label for="username"> Prefered Username<b>:</b></label>
                     </td>
                     <td>
                         <input type="text" id="username">
@@ -144,20 +147,24 @@
             </table>
 
             
-            
+        <!-- Radio -->
         <br>
         <label for="fav">Choose your Major <b>:</b></label>
         <br>
         <input type="radio" id="Sci" name="major" value="Science">Science<br>
         <input type="radio" id="business" name="major" value="Commerce">Commerce <br>
         <input type="radio" id="Arts" name="major" value="Arts">Arts <br>
-            
+         
+        <!-- checkbox  -->
         <br>
-        <input type="checkbox" id="terms" name="conditions" value="terms and conditions"> I accept all the terms and conditions.
+        <input type="checkbox" id="term"  name="conditions" value="terms and conditions">
+        <label for="term">I accept all the terms and conditions.</label> 
         <br>
-        <input type="checkbox" id="send" > I agree to receive confirmation email.
+        <input type="checkbox" id="send" value="Aggrement" >
+        <label for="send">I agree to receive confirmation email.</label> 
         <br><br>
-        <input type="submit">
+        <!-- Action Submission -->
+        <input type="submit" href>
            
         </Form>
     </body>
